@@ -265,7 +265,7 @@ def main():
                 start_time = pygame.time.get_ticks()  # Reset start time for new level
                 junk_speed += 1  # Increase junk speed each level
                 # Update level message with names
-                level_message = f"Level {level + 1}: " + ["Ignition Lift-Off", "Lunar Ascent", "Marsbound Orbit", "Mars Landing"][level]
+                level_message = f"Level {level + 1}: " + ["Ignition Lift-Off", "Lunar Pass-By", "Marsbound Orbit", "Mars Landing"][level]
                 show_level_message = True
                 level_message_start_time = pygame.time.get_ticks()  # Track level message start time
 
